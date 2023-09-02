@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Creative Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- Add a link to the FontAwesome CSS library for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Welcome to Creative Land</h1>
+      <p>Your Journey Starts Here</p>
+      <img
+        id="header-img"
+        src="https://via.placeholder.com/150"
+        alt="Header Image"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#section1">
+          <i class="fas fa-compass"></i> Explore
+        </a>
+        <a class="nav-link" href="#section2">
+          <i class="fas fa-search"></i> Discover
+        </a>
+        <a class="nav-link" href="#section3">
+          <i class="fas fa-link"></i> Connect
+        </a>
+      </nav>
+    </header>
+    <section id="section1">
+      <h2><i class="fas fa-globe"></i> Explore</h2>
+      <p>Embark on a journey of discovery and creativity.</p>
+      <div id="explore-more" style="display: none">
+        <p>Discover exciting places, meet new people, and learn new skills.</p>
+        <p>
+          Our experienced guides will lead you on an adventure of a lifetime!
+        </p>
+      </div>
+      <button id="read-more-btn">Read More</button>
+    </section>
+    <section id="section2">
+      <h2><i class="fas fa-binoculars"></i> Discover</h2>
+      <video
+        id="video"
+        src="https://www.example.com/video.mp4"
+        controls
+      ></video>
+    </section>
+    <section id="section3" class="connect-section">
+      <div class="connect-content">
+        <h2><i class="fas fa-handshake"></i> Connect</h2>
+        <p>
+          Stay connected with us. Subscribe to our newsletter for the latest
+          updates and offers.
+        </p>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input type="submit" id="submit" value="Subscribe" />
+        </form>
+      </div>
+    </section>
+    <section id="section4">
+      <h2><i class="fas fa-cogs"></i> Our Services</h2>
+      <p>
+        We offer a wide range of creative services to help you achieve your
+        goals. Whether it's web design, branding, or digital marketing, we've
+        got you covered.
+      </p>
+    </section>
+    <section id="section5">
+      <h2><i class="fas fa-comments"></i> Client Testimonials</h2>
+      <div class="testimonial">
+        <img
+          src="https://via.placeholder.com/100"
+          alt="Client 1"
+          class="testimonial-img"
+        />
+        <p>
+          "Creative Land transformed our business. Their team's expertise and
+          creativity are unparalleled."
+        </p>
+        <p class="testimonial-author">- John Doe</p>
+      </div>
+      <div class="testimonial">
+        <img
+          src="https://via.placeholder.com/100"
+          alt="Client 2"
+          class="testimonial-img"
+        />
+        <p>
+          "Working with Creative Land was a game-changer for us. Highly
+          recommended!"
+        </p>
+        <p class="testimonial-author">- Jane Smith</p>
+      </div>
+    </section>
+    <footer id="footer">
+      <p>&copy; 2023 Creative Land. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
