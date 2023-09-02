@@ -1,4 +1,4 @@
-# lan# Creative Landing Page 🌟
+# Creative Landing Page 🌟
 
 Welcome to the Creative Landing Page project! 🚀
 
